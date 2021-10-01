@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="container">
+        <header>
+            <div class="main-header">
+                <div class="main-header-name">
+                <p class="header-title">Набор монет 1987 год</p>
+                <p class="header-title-price">Купить сейчас за <span class="header-title-price-number">500 ₽</span></p>
+                </div>
+                <div class="header-info">
+                    <div class="header-info-data">
+                        <img src="img/calendar.svg" alt="calendar">
+                        <p>2 марта в 16:05</p>
+                    </div>
+                    <div class="header-info-place">
+                        <img src="img/label.svg" alt="label">
+                        <p>Санкт-Петербург, ст. м. Маяковская</p>
+                    </div>
+                </div>
+            </div>
+            
+        </header>
+        <main class="main-content">
+            <figure class="main-img">
+                <div class="main-img-back">
+                    <img src="img/coins.jpg" alt="coins" class="main-img-product">
+                </div>
+                <div class="main-img-mini">
+                    <img src="img/coins.jpg" alt="coins" width="80" height="80" class="mini-img">
+                    <img src="img/blue.jpg" alt="blue" class="mini-img">
+                    <img src="img/gray.jpg" alt="gray" class="mini-img">
+                    <img src="img/pink.jpg" alt="pink" class="mini-img">
+                </div>
+            </figure>
+            <aside class="main-aside">
+                <div class="aside-btn-sales">
+                    <button class="aside-btn-sales-write">Написать продавцу</button>
+                    <button class="aside-btn-sales-heart" id="id"><img src="img/heart.svg" id="id-img" alt="heart"></button>
+                </div>
+                <div class="wrap">
+                    <button class="wrap-buy">Купить сейчас</button>
+                    <button class="wrap-write">Написать</button>
+                    <button class="wrap-heart"><img src="img/heartmobil.svg" alt=""></button>
+                </div>
+                <div class="wrap-video">
+                    <img src="img/videosale.svg" alt="videosale">
+                    <div class="wrap-video-block">
+                        <p class="wrap-video-title">Видеопродажа</p>
+                        <p class="wrap-video-text">Демонстрация товара в мессенджере</p>
+                    </div>
+                </div>
+                <div class="wrap-price">
+                    <p class="wrap-price-text"><span class="wrap-price-money">500 ₽</span> Цена лота “Купить сейчас”</p>
+                    <p class="wrap-price-name">Набор монет 1987 год</p>
+                </div>
+                <button class="aside-btn-video"><img src="img/video.svg" alt="video"><span class="aside-btn-video-text">Запросить видеопродажу</span></button>
+                <div class="aside-bid">
+                    <div id="taimer">
+                        <div class="taimer-block">
+                            <span class="taimer-text">Дней</span>
+                            <div>
+                            <span class="days taimer-time"></span>
+                            <span>:</span> 
+                            </div>
+                        </div>
+                        <div class="taimer-block">
+                            <span class="taimer-text">Часов</span>
+                            <div>
+                            <span class="hours taimer-time"></span>
+                            <span>:</span>
+                        </div>
+                        </div>
+                        <div class="taimer-block">
+                            <span class="taimer-text">Минут</span>
+                            <div>
+                            <span class="minutes taimer-time"></span>
+                            <span>:</span> 
+                        </div>
+                        </div>
+                        <div class="taimer-block">
+                            <span class="taimer-text">Секунд</span>
+                            <div>
+                            <span class="seconds taimer-time"></span>
+                        </div>
+                        </div>
+                </div>
+                  <div class="aside-bid-initial">
+                      <p class="aside-bid-initial-text">Начальная цена</p>
+                      <p class="aside-bid-initial-price">100 ₽</p>
+                  </div>
+                  <div class="aside-bid-current">
+                    <p class="aside-bid-current-text">Текущая ставка</p>
+                    <p class="aside-bid-current-price">100 ₽</p>
+                  </div>
+                  <p class="aside-bid-lider">Лидер: Участник</p>
+                  <form action="#" class="aside-bid-form">
+                    <label for="name" class="aside-bid-form-text">Ваша ставка</label>
+                    <input type="text" name="bid" class="aside-bid-form-input">
+                    <button class="aside-bid-form-btn1">Сделать ставку</button>
+                    <label for="name" class="aside-bid-form-text">Автобид</label>
+                    <input type="text" name="autobid" class="aside-bid-form-input">
+                    <button class="aside-bid-form-btn2">Поставить Автобид</button>
+                  </form>
+                </div>
+                <div class="aside-account">
+                    <div class="aside-account-avatar">
+                       <div>
+                           <img src="img/avatar.svg" alt="avatar">
+                           <div class="aside-account-avatar-icon">
+                               <div>
+                                   <img src="img/star.svg" alt="star" class="aside-account-avatar-icon-svg">5,0
+                                   <img src="img/talk.svg" alt="talk" class="aside-account-avatar-icon-svg">6
+                                </div>
+                               <div>
+                                   <img src="img/followleft.svg" alt="follow" class="aside-account-avatar-icon-svg">23
+                                   <img src="img/followright.svg" alt="follow" class="aside-account-avatar-icon-svg">31
+                               </div>
+                           </div>
+                       </div>
+                       <div class="aside-card">
+                           <p class="aside-card-name">Екатерина</p>
+                           <ul class="aside-card-list">
+                               <li class="aside-card-list-item"><img src="img/svg1.svg" alt="svg"><p>Санкт-Петербург</p></li>
+                               <li class="aside-card-list-item"><img src="img/svg2.svg" alt="svg"><p>Частное лицо</p></li>
+                               <li class="aside-card-list-item"><img src="img/svg3.svg" alt="svg"><p>На AT-WORK с февраля </p></li>
+                               <li class="aside-card-list-item"><img src="img/svg4.svg" alt="svg"><p>Онлайн 1 день назад</p></li>
+                           </ul>
+                       </div>
+                    </div>
+                    <div class="aside-contact">
+                        <div>
+                            <img src="img/subscribe.svg" alt="subscribe"  class="aside-contact-svg" id="aside-contact-svg">
+                            <p class="aside-contact-text" id="subscribe">Подписаться</p>
+                        </div>
+                        <div>
+                            <img src="img/favorites.svg" alt="favorites" class="aside-contact-svg2" id="aside-contact-svg2">
+                            <p class="aside-contact-text" id="favorites">В избранное</p>
+                        </div>
+                        <div>
+                            <img src="img/contact.svg" alt="contact" class="aside-contact-svg3">
+                            <p class="aside-contact-text">Связаться</p>
+                        </div>
+                    </div>
+                </div>
+                <ul class="aside-views">
+                    <li class="aside-views-item"><div><img src="img/number.svg" alt="number"></div><p>548</p></li>
+                    <li class="aside-views-item"><div><img src="img/eye.svg" alt="eye"></div><p>211 (+ 2)</p></li>
+                    <li class="aside-views-item"><div><img src="img/heartt.svg" alt="heart"></div><p>4 (+ 3)</p></li>
+                </ul>
+                <ul class="aside-rates">
+                    <li class="aside-rates-item"><img src="img/auk.svg" alt="svg"><p class="aside-rates-item-text">4 ставки</p></li>
+                    <li class="aside-rates-item"><img src="img/point.svg" alt="svg"><p class="aside-rates-item-text-open">Открыто</p></li>
+                </ul>
+                <p class="aside-web-text">Поделиться:</p>
+                <ul class="aside-web">
+                    <li> <img src="img/vk.svg" alt="svg"></li>
+                    <li> <img src="img/ok.svg" alt="svg"></li>
+                    <li> <img src="img/ok (1).svg" alt="svg"></li>
+                    <li> <img src="img/twitter.svg" alt="svg"></li>
+                    <li> <img src="img/t.svg" alt="svg"></li>
+                    <li> <img src="img/fb.svg" alt="svg"></li>
+                    <li> <img src="img/tg.svg" alt="svg"></li>
+                </ul>
+                <button class="aside-complaint-btn"> <img src="img/exclam.svg" alt="svg"> Пожаловаться</button>
+            </aside>
+        </main>
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
